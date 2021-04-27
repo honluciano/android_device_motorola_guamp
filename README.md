@@ -1,5 +1,5 @@
 
-![Redmi 9T](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-9-power-0.jpg "Redmi 9T")
+![Moto G9 Play](https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g9-play.jpg "Moto G9 Play")
 =====================================================
 Basic   | Specs
 -------:|:-------------------------
@@ -7,30 +7,32 @@ CPU     | Qualcomm SM6115 Snapdragon 662 (11 nm)
 GPU     | Adreno 610
 Memory  | 4 GB
 Storage | 64GB / 128GB
-Os      | Android 10, MIUI 12
-Battery | 6000 mAh (non-removable)
-Dimensions | 162.3 x 77.3 x 9.6 mm (6.39 x 3.04 x 0.38 in)
-Display |  6.53 inches 1080 x 2340 pixels
-Rear Camera  | 48 MP, f/1.8, (wide), 1/2.0", 0.8µm, PDAF 2 MP, f/2.4, (macro) 2 MP, f/2.4, (depth)
-Front Camera | 8 MP, f/2.1, (wide), 1/4.0", 1.12µm
-Release Date | 2021, January 08
+Os      | Android 10
+Battery | 5000 mAh (non-removable)
+Dimensions | 165.2 x 75.7 x 9.2 mm (6.50 x 2.98 x 0.36 in)
+Display |  6.5 inches 720 x 1600 pixels
+Rear Camera  | 48 MP, f/1.7, (wide), 1/2.0", 0.8µm, PDAF, 2 MP, f/2.4, (macro), 2 MP, f/2.4, (depth)
+Front Camera | 8 MP, f/2.2, 1.12µm
+Release Date | 2020, August 24
 
 
 ## Working :
 
 - ADB
 
-- Decryption userdata with eu roms
+- Decryption
 
 - Screen brightness settings
 
-- Correct screenshot color
+- Screenshot
 
 - MTP
 
 - Sideload
 
 - Vibration
+
+- Backup/Restore
 
 ## To compile
 
