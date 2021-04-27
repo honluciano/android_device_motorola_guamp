@@ -114,7 +114,7 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := true
 BOARD_USES_METADATA_PARTITION := true
 
 # TWRP specific build flags
-TW_THEME := portrait_hdpi_monet_bl-watch-l
+TW_THEME := portrait_hdpi
 TW_INCLUDE_NTFS_3G := true
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
