@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_lime.mk
+    $(LOCAL_DIR)/omni_guamp.mk
 
-COMMON_LUNCH_CHOICES := omni_lime-eng
+COMMON_LUNCH_CHOICES := omni_guamp-eng

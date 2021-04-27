@@ -71,7 +71,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := lime
+TARGET_OTA_ASSERT_DEVICE := guamp
 
 # Avb
 BOARD_AVB_ENABLE := true
@@ -132,6 +132,6 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 21.1.0
-TW_DEVICE_VERSION := $(shell date -u +"%d-%m-%Y") by geoanto555
+TW_DEVICE_VERSION := $(shell date -u +"%d-%m-%Y") by 100Daisy
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 

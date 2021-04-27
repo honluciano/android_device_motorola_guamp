@@ -15,8 +15,8 @@
 #
 
 # Release name
-DEVICE_PATH := device/xiaomi/lime
-PRODUCT_RELEASE_NAME := Redmi 9T
+DEVICE_PATH := device/motorola/guamp
+PRODUCT_RELEASE_NAME := G9 Play
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += fastbootd
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
@@ -25,11 +25,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := lime
-PRODUCT_NAME := omni_lime
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 9T
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := guamp
+PRODUCT_NAME := omni_guamp
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := G9 Play
+PRODUCT_MANUFACTURER := motorola
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
