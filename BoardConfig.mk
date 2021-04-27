@@ -136,3 +136,19 @@ PLATFORM_VERSION := 21.1.0
 TW_DEVICE_VERSION := $(shell date -u +"%d-%m-%Y") by 100Daisy
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
+# SHRP
+SHRP_STATUSBAR_RIGHT_PADDING := 20
+SHRP_STATUSBAR_LEFT_PADDING := 20
+SHRP_DEVICE_CODE := guamp
+SHRP_PATH := device/motorola/guamp
+SHRP_MAINTAINER := 100Daisy
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A/B
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+
+
+
+

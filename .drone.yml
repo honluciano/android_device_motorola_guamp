@@ -1,5 +1,5 @@
 kind: pipeline
-name: TWRP for guamp
+name: SHRP for guamp
 
 clone:
   depth: 1
