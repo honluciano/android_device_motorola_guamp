@@ -10,6 +10,7 @@ on fs
     chmod 0664 /dev/ion
     chown system system /dev/ion
     install_keyring
+    start load-modules
 
 on early-fs
     start vold
@@ -71,6 +72,13 @@ service vendor.vibrator-1-0 /sbin/android.hardware.vibrator@1.0-service
     seclabel u:r:recovery:s0
     
 service make-dir /system/bin/make-dir.sh 
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0
+
+service load-modules /system/bin/load-modules.sh
+    oneshot
     user root
     group root
     disabled
