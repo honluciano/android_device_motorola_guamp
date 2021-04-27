@@ -22,7 +22,7 @@ shrp_version=$(cat ~/SHRP-10/bootable/recovery/variables.h | grep "define TW_MAI
 date_time=$(date +"%d%m%Y%H%M")
 mkdir ~/final
 cp out/target/product/guamp/recovery.img ~/final/shrp-$shrp_version-guamp-"$date_time"-unofficial.img
-cp SHRP*.zip ~/final/
+cp out/target/product/guamp/SHRP*.zip ~/final/
 # Upload to oshi.at
 curl -T ~/final/*.img https://oshi.at
 curl -T ~/final/SHRP_v*.zip https://oshi.at
