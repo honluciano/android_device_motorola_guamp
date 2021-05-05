@@ -76,7 +76,7 @@ TARGET_KERNEL_CONFIG := bengal-common_defconfig
 endif
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := guamp
+TARGET_OTA_ASSERT_DEVICE := guamp, guam, guamna, cebu
 
 # Avb
 BOARD_AVB_ENABLE := true
