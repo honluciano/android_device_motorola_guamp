@@ -32,4 +32,4 @@
 # Dyanmic Partitions
 /system         ext4    /dev/block/mapper/system_a 	flags=display="System"
 /vendor         ext4    /dev/block/mapper/vendor_a 	flags=display="Vendor"
-/product        ext4    /dev/block/mapper/product_a	flags=display="Product"
+/product        ext4    /dev/block/dm-3	flags=display="Product"
