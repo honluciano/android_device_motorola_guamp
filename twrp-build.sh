@@ -13,7 +13,7 @@ repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_
 repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 
 # Clone device tree and common tree
-git clone --depth=1 https://github.com/100Daisy/android_device_motorola_guamp -b android-10-cebu-prebuilt device/motorola/guamp
+git clone --depth=1 https://github.com/100Daisy/android_device_motorola_guamp -b android-10-caprip-prebuilt device/motorola/guamp
 
 # Build recovery image
 export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_guamp-eng; make -j$(nproc --all) recoveryimage
@@ -21,6 +21,6 @@ export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_guamp-en
 twrp_version=$(cat ~/TWRP-10/bootable/recovery/variables.h | grep "define TW_MAIN_VERSION_STR" | cut -d '"' -f2)
 date_time=$(date +"%d%m%Y%H%M")
 mkdir ~/final
-cp out/target/product/guamp/recovery.img ~/final/twrp-$twrp_version-guamp-"$date_time"-unofficial.img
+cp out/target/product/guamp/recovery.img ~/final/twrp-$twrp_version-caprip-"$date_time"-unofficial.img
 # Upload to oshi.at
 curl -T ~/final/*.img https://oshi.at 
