@@ -70,16 +70,8 @@ BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
-
-ifeq ($(PREBUILT_KERNEL),true)
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel.gz
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
-else
 TARGET_KERNEL_SOURCE := kernel/motorola/guamp
-TARGET_KERNEL_CONFIG := bengal-common_defconfig
-endif
+TARGET_KERNEL_CONFIG := bengal_defconfig
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := guamp, guam, guamna, cebu
