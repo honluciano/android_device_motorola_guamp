@@ -1,7 +1,5 @@
 #!/system/bin/sh
 insmod /v/lib/modules/chipone_tddi_mmi.ko
-insmod /vendor/lib/modules/nova_0flash_mmi.ko
-insmod /vendor/lib/modules/focaltech_0flash_mmi.ko
 insmod /vendor/lib/modules/chipone_tddi_mmi.ko
 insmod /vendor/lib/modules/fpc1020_mmi.ko
 insmod /vendor/lib/modules/goodix_fod_mmi.ko
