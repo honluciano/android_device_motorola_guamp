@@ -24,4 +24,4 @@ date_time=$(date +"%d%m%Y%H%M")
 mkdir ~/final
 cp out/target/product/guamp/recovery.img ~/final/twrp-$twrp_version-guamp-"$date_time"-unofficial.img
 # Upload to oshi.at
-curl -T ~/final/*.img https://oshi.at 
+curl -T ~/final/*.img transfer.sh
