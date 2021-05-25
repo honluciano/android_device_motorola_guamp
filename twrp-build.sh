@@ -4,8 +4,9 @@
 mkdir ~/TWRP-10 && cd ~/TWRP-10
 
 # Configure git
-git config --global user.email "100Daisy@protonmail.com"
-git config --global user.name "GitDaisy"
+git config --global user.email "pajhonludev@gmail.com"
+git config --global user.name "jhonludev
+"
 git config --global color.ui false
 
 # Sync the source
